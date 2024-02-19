@@ -13,7 +13,7 @@ public class MetierImpl implements IMetier {
     //Couplage faible
     private IDao dao;
 
-    public MetierImpl(@Qualifier("dao") IDao dao) {
+    public MetierImpl(@Qualifier("dao2") IDao dao) {
         this.dao = dao;
     }
 

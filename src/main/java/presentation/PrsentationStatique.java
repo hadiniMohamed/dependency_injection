@@ -9,6 +9,6 @@ public class PrsentationStatique {
     public static void main(String[] args) {
         IDao dao = new DaoImpl();
         IMetier metier = new MetierImpl(dao);
-        System.out.println( metier.calcul());
+        System.out.println("res :"+ metier.calcul());
     }
 }

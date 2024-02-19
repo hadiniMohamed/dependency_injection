@@ -20,7 +20,7 @@ public class PresentationDynamique {
         Method method =cMetier.getMethod("setDao", IDao.class);
         method.invoke(metier,dao);
 
-        System.out.println("resualt"+metier.calcul());
+        System.out.println("res :"+metier.calcul());
 
 
     }

@@ -6,7 +6,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class PresentationSpringXml {
     public static void main(String[] args) {
-       String name= "";
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
         IMetier metier = (IMetier) context.getBean("metier");
         System.out.println(metier.calcul());
